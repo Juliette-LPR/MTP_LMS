@@ -173,17 +173,17 @@ var lms = new MTP_LMS();
 
 var communityPostAdded = function(obj) {
   if (obj.status === 'ERROR') {
-    // Traiter l'erreur
+    // Process the error
   } else {
-    // Proposer de voir le groupe dans lequel le post a été envoyé
+    // Offer to see the group in which the post has been sent
   }
 };
 
 var moduleCompletionSaved = function(obj) {
   if (obj.status === 'ERROR') {
-    // Traiter l'erreur
+    // Process the error
   } else {
-    // Remercier d'avoir jouer
+    // Thank for playing
   }
 };
 
